@@ -2,14 +2,14 @@
 
 ## How do I install these formulae?
 
-`brew install runmat/tap/runmat`
+`brew install runmat-org/tap/runmat`
 
-Or `brew tap runmat/tap` and then `brew install runmat`.
+Or `brew tap runmat-org/tap` and then `brew install runmat`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "runmat/tap"
+tap "runmat-org/tap"
 brew "runmat"
 ```
 
