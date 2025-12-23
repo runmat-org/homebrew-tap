@@ -1,6 +1,7 @@
 class Runmat < Formula
   desc "Blazing fast runtime for math workloads"
   homepage "https://runmat.org"
+  version: "0.2.8"
 
   on_macos do
     if Hardware::CPU.arm?
