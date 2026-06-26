@@ -4,13 +4,13 @@ class Runmat < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/runmat-org/runmat/releases/download/v0.5.3/runmat-v0.5.3-macos-aarch64.tar.gz"
-      version "0.5.3"
-      sha256 "299f7d654ad2c4899c8da882c8793a907bf9bdf8802c513818ab82ac899ce7fa"
+      url "https://github.com/runmat-org/runmat/releases/download/v0.5.5/runmat-v0.5.5-macos-aarch64.tar.gz"
+      version "0.5.5"
+      sha256 "223b184c6984755cfba411fe3ffb8c2a54447609303e7b9f0aa277e08c4708ce"
     else
-      url "https://github.com/runmat-org/runmat/releases/download/v0.5.3/runmat-v0.5.3-macos-x86_64.tar.gz"
-      version "0.5.3"
-      sha256 "4e0c7fc47f607e89c985f06709bb01cd1902953008a9c905211c06bf808127ee"
+      url "https://github.com/runmat-org/runmat/releases/download/v0.5.5/runmat-v0.5.5-macos-x86_64.tar.gz"
+      version "0.5.5"
+      sha256 "b289b16ed4965424ea7beb0c6d0079d844009540ee78e3ff4f651d656cee876b"
     end
   end
 
